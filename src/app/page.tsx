@@ -50,7 +50,7 @@ export default function Home() {
               <span className="relative">
                 Cricket
                 <Image
-                  src="https://i.ibb.co/Vt2v4Vd/cricket-ball.png"
+                  src="https://images.unsplash.com/photo-1587385789097-0197a7fbd179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwYmFsbCUyMHpvb21lZHxlbnwwfHx8fDE3NTI5Mzc1MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
                   alt="Bouncing cricket ball"
                   width={40}
                   height={40}
