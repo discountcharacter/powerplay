@@ -48,7 +48,7 @@ export default function Home() {
             <h2 className="font-headline text-5xl font-bold leading-tight tracking-tighter text-foreground md:text-7xl">
               Shape Your Cr
               <span className="relative inline-block">
-                <span className="relative">i</span>
+                i
                 <span className="absolute -top-1 left-0 inline-block h-6 w-6 md:-top-2 md:h-8 md:w-8">
                   <Image
                     src="https://i.ibb.co/6rBf14f/cricket-ball.png"
