@@ -46,7 +46,20 @@ export default function Home() {
           <div className="relative inline-block">
             <div className="absolute -z-10 -translate-x-1/2 -translate-y-1/2 top-0 left-1/2 h-48 w-48 rounded-full bg-primary/20 blur-3xl"></div>
             <h2 className="font-headline text-5xl font-bold leading-tight tracking-tighter text-foreground md:text-7xl">
-              Shape Your Cricket
+              Shape Your Cr
+              <span className="relative inline-block">
+                <span className="relative">i</span>
+                <span className="absolute -top-1 left-0 inline-block h-6 w-6 md:-top-2 md:h-8 md:w-8">
+                  <Image
+                    src="https://i.ibb.co/6rBf14f/cricket-ball.png"
+                    alt="Bouncing cricket ball"
+                    width={32}
+                    height={32}
+                    className="animate-bounce"
+                  />
+                </span>
+              </span>
+              cket
               <br />
               Legacy
             </h2>
@@ -99,12 +112,12 @@ export default function Home() {
           <div className="relative flex items-center justify-center">
             <div className="animate-bounce h-16 w-16">
               <Image
-                src="https://images.unsplash.com/photo-1743342875460-366f386a364a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOHx8Y3JpY2tldCUyMGJhbGx8ZW58MHx8fHwxNzUyOTMyNDIxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+                src="https://i.ibb.co/6rBf14f/cricket-ball.png"
                 data-ai-hint="cricket ball"
                 alt="Cricket Ball"
                 width={100}
                 height={100}
-                className="rounded-full shadow-2xl"
+                className="shadow-2xl"
               />
             </div>
           </div>
