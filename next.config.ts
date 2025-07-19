@@ -24,12 +24,11 @@ const nextConfig: NextConfig = {
       }
     ],
   },
-  experimental: {
-    serverComponentsExternalPackages: ['@genkit-ai/googleai', 'genkit', '@genkit-ai/next'],
-  },
   webpack: (config, { isServer }) => {
     if (isServer) {
-      config.externals.push('@genkit-ai/googleai', 'genkit', '@genkit-ai/next');
+      // Exclude all @genkit-ai/* and genkit packages from the server bundle
+      // They will be loaded at runtime instead.
+      config.externals.push(/^@genkit-ai\//, 'genkit');
     }
     return config;
   },
