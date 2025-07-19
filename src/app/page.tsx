@@ -31,9 +31,9 @@ export default function Home() {
     <div className="flex min-h-screen flex-col">
       <header className="container mx-auto flex items-center justify-between px-4 py-6">
         <div className="flex items-center gap-3">
-          <Logo className="h-10 w-10 text-primary" />
+          <Logo className="h-12 w-12" />
           <h1 className="font-headline text-2xl font-bold tracking-tight text-foreground">
-            PowerPlay
+            Powerplay Cricket Academy
           </h1>
         </div>
         <Button asChild variant="secondary">
@@ -52,7 +52,7 @@ export default function Home() {
             </h2>
           </div>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
-            Join PowerPlay Cricket Academy, where passion meets performance. We
+            Join Powerplay Cricket Academy, where passion meets performance. We
             provide top-tier training to forge the next generation of cricket
             champions.
           </p>
@@ -63,7 +63,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="mb-12 text-center">
               <h3 className="font-headline text-4xl font-bold text-foreground">
-                Why PowerPlay?
+                Why Powerplay?
               </h3>
               <p className="mx-auto mt-2 max-w-xl text-muted-foreground">
                 We're not just an academy; we're a launchpad for your cricket
@@ -114,9 +114,9 @@ export default function Home() {
       <footer className="container mx-auto mt-12 border-t border-secondary px-4 py-8">
         <div className="flex flex-col items-center justify-between gap-4 text-center md:flex-row md:text-left">
           <div className="flex items-center gap-2">
-            <Logo className="h-6 w-6 text-muted-foreground" />
+            <Logo className="h-8 w-8" />
             <span className="text-muted-foreground">
-              &copy; {new Date().getFullYear()} PowerPlay Cricket Academy. All
+              &copy; {new Date().getFullYear()} Powerplay Cricket Academy. All
               rights reserved.
             </span>
           </div>

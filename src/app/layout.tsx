@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'PowerPlay Cricket Academy',
+  title: 'Powerplay Cricket Academy',
   description: 'Launchpad for the next generation of cricket champions.',
   keywords: ['cricket', 'academy', 'sports', 'training', 'coaching'],
 };
