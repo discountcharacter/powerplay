@@ -97,7 +97,7 @@ export default function Home() {
 
         <section className="overflow-hidden py-16">
           <div className="relative flex items-center justify-center">
-            <div className="animate-bounce-slow h-16 w-16">
+            <div className="animate-bounce h-16 w-16">
               <Image
                 src="https://placehold.co/100x100.png"
                 data-ai-hint="cricket ball"
