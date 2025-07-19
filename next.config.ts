@@ -27,6 +27,12 @@ const nextConfig: NextConfig = {
   experimental: {
     serverComponentsExternalPackages: ['@genkit-ai/googleai'],
   },
+  webpack: (config, { isServer }) => {
+    if (isServer) {
+      config.externals.push('@genkit-ai/googleai');
+    }
+    return config;
+  },
 };
 
 export default nextConfig;
