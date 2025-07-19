@@ -46,18 +46,7 @@ export default function Home() {
           <div className="relative inline-block">
             <div className="absolute -z-10 -translate-x-1/2 -translate-y-1/2 top-0 left-1/2 h-48 w-48 rounded-full bg-primary/20 blur-3xl"></div>
             <h2 className="font-headline text-5xl font-bold leading-tight tracking-tighter text-foreground md:text-7xl">
-              Shape Your{' '}
-              <span className="relative">
-                Cricket
-                <Image
-                  src="https://images.unsplash.com/photo-1587385789097-0197a7fbd179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwYmFsbCUyMHpvb21lZHxlbnwwfHx8fDE3NTI5Mzc1MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
-                  alt="Bouncing cricket ball"
-                  width={40}
-                  height={40}
-                  className="absolute -top-5 right-5 inline-block animate-bounce"
-                  data-ai-hint="cricket ball"
-                />
-              </span>
+              Shape Your Cricket
               <br />
               Legacy
             </h2>
