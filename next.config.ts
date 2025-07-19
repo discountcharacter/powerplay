@@ -25,11 +25,11 @@ const nextConfig: NextConfig = {
     ],
   },
   experimental: {
-    serverComponentsExternalPackages: ['@genkit-ai/googleai'],
+    serverComponentsExternalPackages: ['@genkit-ai/googleai', 'genkit', '@genkit-ai/next'],
   },
   webpack: (config, { isServer }) => {
     if (isServer) {
-      config.externals.push('@genkit-ai/googleai');
+      config.externals.push('@genkit-ai/googleai', 'genkit', '@genkit-ai/next');
     }
     return config;
   },
