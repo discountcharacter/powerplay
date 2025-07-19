@@ -1,7 +1,7 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
-import { useEffect, useRef } from 'react';
+import { useActionState, useEffect, useRef } from 'react';
+import { useFormStatus } from 'react-dom';
 import { ArrowRight, LoaderCircle, Mail } from 'lucide-react';
 import { captureEmail } from '@/app/actions';
 import { useToast } from '@/hooks/use-toast';
@@ -33,7 +33,7 @@ function SubmitButton() {
 }
 
 export function EmailCaptureForm() {
-  const [state, formAction] = useFormState(captureEmail, initialState);
+  const [state, formAction] = useActionState(captureEmail, initialState);
   const { toast } = useToast();
   const formRef = useRef<HTMLFormElement>(null);
 
